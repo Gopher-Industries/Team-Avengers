@@ -1,5 +1,5 @@
 function cancelAppointment(agent) {
-  // Extract the appointment date and time from the agent's parameters
+  // Extract the appointment date and time from the agent's parameter
   const appointmentDate = agent.parameters.date;
   const appointmentTime = agent.parameters.time;
 
